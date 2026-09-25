@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "ch32-community",
-      "websiteURL": "https://github.com/ch32-community",
+      "websiteURL": "https://github.com/ch32-community/arduino_core_ch32",
       "maintainer": "ch32-community",
       "email": "devin.marx3@gmail.com",
       "help": {
