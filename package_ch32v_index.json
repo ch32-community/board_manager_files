@@ -14,7 +14,7 @@
           "architecture": "ch32v",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://codeload.github.com/openwch/arduino_core_ch32/zip/refs/tags/1.0.0",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.0",
           "archiveFileName": "arduino_core_ch32-1.0.0.zip",
           "checksum": "SHA-256:6FD92A6C0054979A460E6C14AC656FBACAC3BEFAB92F33D4B1B7C0A0E035FD86",
           "size": "411583",
@@ -40,7 +40,7 @@
           "architecture": "ch32v",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://codeload.github.com/openwch/arduino_core_ch32/zip/refs/tags/1.0.1",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.1",
           "archiveFileName": "arduino_core_ch32-1.0.1.zip",
           "checksum": "SHA-256:964E924D3B2CA648DD70F3E1D87BBB2E62869F9ECA23604745060A1B4AA26739",
           "size": "553015",
@@ -67,7 +67,7 @@
           "architecture": "ch32v",
           "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://codeload.github.com/openwch/arduino_core_ch32/zip/refs/tags/1.0.2",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.2",
           "archiveFileName": "arduino_core_ch32-1.0.2.zip",
           "checksum": "SHA-256:C7CF46D0AA447B78FBF239251085D009B47F436B3A22C14AC116D7FA4E492397",
           "size": "583402",
@@ -94,7 +94,7 @@
           "architecture": "ch32v",
           "version": "1.0.3",
           "category": "Contributed",
-          "url": "https://codeload.github.com/openwch/arduino_core_ch32/zip/refs/tags/1.0.3",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.3",
           "archiveFileName": "arduino_core_ch32-1.0.3.zip",
           "checksum": "SHA-256:233B4DC7D1930BBE93FC0F00964ADFC24DDC012585121D113F98CEF8652A1362",
           "size": "964954",
@@ -123,7 +123,7 @@
           "architecture": "ch32v",
           "version": "1.0.4",
           "category": "Contributed",
-          "url": "https://codeload.github.com/openwch/arduino_core_ch32/zip/refs/tags/1.0.4",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.4",
           "archiveFileName": "arduino_core_ch32-1.0.4.zip",
           "checksum": "SHA-256:8F4E975F763183791AAAC5E537584DFD13DD044BD5DC05D09B0E2C7DECCD14C5",
           "size": "980095",
@@ -161,7 +161,7 @@
           [
             {
               "host": "i686-mingw32",
-              "url": "https://codeload.github.com/openwch/risc-none-embed-gcc/zip/refs/tags/8.2.0",
+              "url": "https://codeload.github.com/ch32-community/risc-none-embed-gcc/zip/refs/tags/8.2.0",
               "archiveFileName": "risc-none-embed-gcc-8.2.0.zip",
               "checksum": "SHA-256:43DF880A1908C873A8B6AB115568C6BEAEEC41DDADEB5202703B6AA9FDE50626",
               "size": "267710516"
@@ -189,7 +189,7 @@
           [
             {
               "host": "i686-mingw32",
-              "url": "https://codeload.github.com/openwch/openocd_wch/zip/refs/tags/1.0.0",
+              "url": "https://codeload.github.com/ch32-community/openocd_wch/zip/refs/tags/1.0.0",
               "archiveFileName": "openocd_wch-1.0.0.zip",
               "checksum": "SHA-256:F1E54FD7F253CF37E7F4581088FF62DFDFDAB899B9D3182C36426F6146AE0465",
               "size": "9604774"
