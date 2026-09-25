@@ -151,6 +151,40 @@
               "version": "1.0.0"
             }
           ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.5",
+          "archiveFileName": "arduino_core_ch32-1.0.5.zip",
+          "checksum": "SHA-256:0F0212DD236D03C4318ADAE47CC3B3AF39F1B78F197C7410AB57DAB6B0BF3347",
+          "size": "1370370",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},
+            {"name": "CH32V10x EVT Board"},
+            {"name": "CH32V00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
         }
       ],
       "tools": [
@@ -193,6 +227,34 @@
               "archiveFileName": "openocd_wch-1.0.0.zip",
               "checksum": "SHA-256:F1E54FD7F253CF37E7F4581088FF62DFDFDAB899B9D3182C36426F6146AE0465",
               "size": "9604774"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:10FA9CF5006C3495AEDCAFD1C3903FA8D75D513536432E1D61B59124442EB4C3",
+              "size": "2097609"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
+              "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
+              "size": "1995618"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "2.12",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://codeload.github.com/ch32-community/openocd_wch/zip/refs/tags/2.12",
+              "archiveFileName": "openocd_wch-2.12.zip",
+              "checksum": "SHA-256:BE5F4DAC56F2D16A7997DE2C5E61C0A114970E456644C4C26B281DD5610AC359",
+              "size": "10567384"
             },
             {
               "host": "x86_64-linux-gnu",
