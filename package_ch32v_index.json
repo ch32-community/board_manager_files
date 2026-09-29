@@ -185,6 +185,40 @@
               "version": "1.0.0"
             }
           ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.1.0.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.1.0/ch32-community-arduino-core-1.1.0.zip",
+          "checksum": "SHA-256:5fe8d264e9e270070f9629745174b897906e71b1ec03510024498404f67946f3",
+          "size": "2018011",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},
+            {"name": "CH32V10x EVT Board"},
+            {"name": "CH32V00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
         }
       ],
       "tools": [
