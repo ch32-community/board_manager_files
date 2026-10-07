@@ -12,155 +12,12 @@
         {
           "name": "CH32 Community Core",
           "architecture": "ch32v",
-          "version": "1.0.0",
+          "version": "1.1.0",
           "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.0",
-          "archiveFileName": "arduino_core_ch32-1.0.0.zip",
-          "checksum": "SHA-256:6FD92A6C0054979A460E6C14AC656FBACAC3BEFAB92F33D4B1B7C0A0E035FD86",
-          "size": "411583",
-          "boards": [
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "openocd",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "CH32 Community Core",
-          "architecture": "ch32v",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.1",
-          "archiveFileName": "arduino_core_ch32-1.0.1.zip",
-          "checksum": "SHA-256:964E924D3B2CA648DD70F3E1D87BBB2E62869F9ECA23604745060A1B4AA26739",
-          "size": "553015",
-          "boards": [
-            {"name": "CH32X035 EVT Board"},
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "openocd",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "CH32 Community Core",
-          "architecture": "ch32v",
-          "version": "1.0.2",
-          "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.2",
-          "archiveFileName": "arduino_core_ch32-1.0.2.zip",
-          "checksum": "SHA-256:C7CF46D0AA447B78FBF239251085D009B47F436B3A22C14AC116D7FA4E492397",
-          "size": "583402",
-          "boards": [
-            {"name": "CH32X035 EVT Board"},
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "openocd",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "CH32 Community Core",
-          "architecture": "ch32v",
-          "version": "1.0.3",
-          "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.3",
-          "archiveFileName": "arduino_core_ch32-1.0.3.zip",
-          "checksum": "SHA-256:233B4DC7D1930BBE93FC0F00964ADFC24DDC012585121D113F98CEF8652A1362",
-          "size": "964954",
-          "boards": [
-            {"name": "CH32X035 EVT Board"},
-            {"name": "CH32V30x EVT Board"},
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V10x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "openocd",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "CH32 Community Core",
-          "architecture": "ch32v",
-          "version": "1.0.4",
-          "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.4",
-          "archiveFileName": "arduino_core_ch32-1.0.4.zip",
-          "checksum": "SHA-256:8F4E975F763183791AAAC5E537584DFD13DD044BD5DC05D09B0E2C7DECCD14C5",
-          "size": "980095",
-          "boards": [
-            {"name": "CH32X035 EVT Board"},
-            {"name": "CH32V30x EVT Board"},
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V10x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "openocd",
-              "version": "1.0.0"
-            },
-            {
-              "packager": "ch32-community",
-              "name": "beforeinstall",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "CH32 Community Core",
-          "architecture": "ch32v",
-          "version": "1.0.5",
-          "category": "Contributed",
-          "url": "https://codeload.github.com/ch32-community/arduino_core_ch32/zip/refs/tags/1.0.5",
-          "archiveFileName": "arduino_core_ch32-1.0.5.zip",
-          "checksum": "SHA-256:0F0212DD236D03C4318ADAE47CC3B3AF39F1B78F197C7410AB57DAB6B0BF3347",
-          "size": "1370370",
+          "archiveFileName": "ch32-community-arduino-core-1.1.0.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.1.0/ch32-community-arduino-core-1.1.0.zip",
+          "checksum": "SHA-256:5fe8d264e9e270070f9629745174b897906e71b1ec03510024498404f67946f3",
+          "size": "2018011",
           "boards": [
             {"name": "CH32X035 EVT Board"},
             {"name": "CH32V30x EVT Board"},
@@ -189,18 +46,19 @@
         {
           "name": "CH32 Community Core",
           "architecture": "ch32v",
-          "version": "1.1.0",
+          "version": "1.2.261007",
           "category": "Contributed",
-          "archiveFileName": "ch32-community-arduino-core-1.1.0.zip",
-          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.1.0/ch32-community-arduino-core-1.1.0.zip",
-          "checksum": "SHA-256:5fe8d264e9e270070f9629745174b897906e71b1ec03510024498404f67946f3",
-          "size": "2018011",
+          "archiveFileName": "ch32-community-arduino-core-1.2.261007.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.2.261007/ch32-community-arduino-core-1.2.261007.zip",
+          "checksum": "SHA-256:ad31db0298d6b02ad09806c3d1ba0997d6a803c3e3dc04ea1d55b94ac1afa542",
+          "size": "2040588",
           "boards": [
-            {"name": "CH32X035 EVT Board"},
-            {"name": "CH32V30x EVT Board"},
-            {"name": "CH32V20x EVT Board"},
-            {"name": "CH32V10x EVT Board"},
-            {"name": "CH32V00x EVT Board"}
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"}
           ],
           "toolsDependencies": [
             {
@@ -236,45 +94,17 @@
             },
             {
               "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/TianpeiLee/wch_gcc_8_linux/tar.gz/refs/tags/8.2.0",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_8_linux/tar.gz/refs/tags/8.2.0",
               "archiveFileName": "wch_gcc_8_linux-8.2.0.tar.gz",
               "checksum": "SHA-256:967FB021E5689FF79A06A71C7E54FB7FACE418D5E9B27EC64F5E56687557A282",
               "size": "245443061"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://codeload.github.com/TianpeiLee/wch_gcc_macos/tar.gz/refs/tags/8.2.0",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_macos/tar.gz/refs/tags/8.2.0",
               "archiveFileName": "wch_gcc_macos-8.2.0.tar.gz",
               "checksum": "SHA-256:E14538AE7B621DE798C2466B338A4174CCE22C9CF12E5C1684C0995931738260",
               "size": "160591401"
-            }
-          ]
-        },
-        {
-          "name": "openocd",
-          "version": "1.0.0",
-          "systems":
-          [
-            {
-              "host": "i686-mingw32",
-              "url": "https://codeload.github.com/ch32-community/openocd_wch/zip/refs/tags/1.0.0",
-              "archiveFileName": "openocd_wch-1.0.0.zip",
-              "checksum": "SHA-256:F1E54FD7F253CF37E7F4581088FF62DFDFDAB899B9D3182C36426F6146AE0465",
-              "size": "9604774"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
-              "archiveFileName": "wch_openocd_linux-1.0.0.tar.gz",
-              "checksum": "SHA-256:10FA9CF5006C3495AEDCAFD1C3903FA8D75D513536432E1D61B59124442EB4C3",
-              "size": "2097609"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
-              "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
-              "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
-              "size": "1995618"
             }
           ]
         },
@@ -292,14 +122,14 @@
             },
             {
               "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
+              "url": "https://codeload.github.com/ch32-community/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
               "archiveFileName": "wch_openocd_linux-1.0.0.tar.gz",
               "checksum": "SHA-256:10FA9CF5006C3495AEDCAFD1C3903FA8D75D513536432E1D61B59124442EB4C3",
               "size": "2097609"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
+              "url": "https://codeload.github.com/ch32-community/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
               "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
               "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
               "size": "1995618"
@@ -313,7 +143,7 @@
           [
             {
               "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/TianpeiLee/wch_beforeinstall_linux/tar.gz/refs/tags/1.0.0",
+              "url": "https://codeload.github.com/ch32-community/wch_beforeinstall_linux/tar.gz/refs/tags/1.0.0",
               "archiveFileName": "wch_beforeinstall_linux-1.0.0.tar.gz",
               "checksum": "SHA-256:17EF3A94BC46B9EB9AB1FDECC48FCD3880EEB8FCC36E6648626320F0BF2864DC",
               "size": "507269"
