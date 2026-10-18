@@ -36,6 +36,11 @@
               "name": "openocd",
               "version": "2.12"
             },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
             {
               "packager": "ch32-community",
               "name": "beforeinstall",
@@ -70,6 +75,11 @@
               "packager": "ch32-community",
               "name": "openocd",
               "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
             },
             {
               "packager": "ch32-community",
@@ -133,6 +143,48 @@
               "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
               "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
               "size": "1995618"
+            }
+          ]
+        },
+        {
+          "name": "wchisp",
+          "version": "0.2.3",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-win-x64.zip",
+              "archiveFileName": "wchisp-v0.2.3-win-x64.zip",
+              "checksum": "SHA-256:E17AC0AE743E25C080A539E6BB407C993E87583D4D6AEDDCC0CD92EE681CC6CD",
+              "size": "629251"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-linux-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-linux-x64.tar.gz",
+              "checksum": "SHA-256:B83C7CECF8B786D973CDF09D80869DA0CCBA48F22FED04CC753F15410F9C5DBC",
+              "size": "829359"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "checksum": "SHA-256:5F3F20A273D62B545085FCCFA5640F4BF42EF70CCF17D6BE87311951073450A1",
+              "size": "828826"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-macos-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-macos-x64.tar.gz",
+              "checksum": "SHA-256:635FD1B35E4D3101EC33FFDF6B93799103129225883C2D19CF1888EAB4E230B9",
+              "size": "774784"
+            },
+            {
+              "host": "aarch64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-macos-arm64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-macos-arm64.tar.gz",
+              "checksum": "SHA-256:8CBC83F0A5876E472F149D33131CC03C69C96C40FA731B44CB283E872D3A3E9D",
+              "size": "757891"
             }
           ]
         },
