@@ -36,6 +36,11 @@
               "name": "openocd",
               "version": "2.12"
             },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
             {
               "packager": "ch32-community",
               "name": "beforeinstall",
@@ -70,6 +75,11 @@
               "packager": "ch32-community",
               "name": "openocd",
               "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
             },
             {
               "packager": "ch32-community",
