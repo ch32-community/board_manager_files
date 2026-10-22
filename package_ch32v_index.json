@@ -87,6 +87,47 @@
               "version": "1.0.0"
             }
           ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.2.261021",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.2.261021.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.2.261021/ch32-community-arduino-core-1.2.261021.zip",
+          "checksum": "SHA-256:ee1148d2c6d5985306c7a3fe8be89a2926d11195bed1dbbff17fddc05e095687",
+          "size": "2118465",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"},
+            {"name": "CH32L10x EVT Board" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
         }
       ],
       "tools": [
