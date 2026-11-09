@@ -132,12 +132,12 @@
         {
           "name": "CH32 Community Core",
           "architecture": "ch32v",
-          "version": "1.2.261021",
+          "version": "1.3.261109",
           "category": "Contributed",
-          "archiveFileName": "ch32-community-arduino-core-1.2.261109.zip",
-          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.2.261109/ch32-community-arduino-core-1.2.261109.zip",
-          "checksum": "SHA-256:1cc2a014aa978c9ef81bf3855beec04ecfbf164df57b76e256845325f6eaa581",
-          "size": "2315895",
+          "archiveFileName": "ch32-community-arduino-core-1.3.261109.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.3.261109/ch32-community-arduino-core-1.3.261109.zip",
+          "checksum": "SHA-256:5833503bd10af0f8e905faab5e874b180ebe24751c53f7a34ded99291bc9c98e",
+          "size": "2315905",
           "boards": [
             {"name": "CH32X035 EVT Board" },
             {"name": "CH32V30x EVT Board" },
