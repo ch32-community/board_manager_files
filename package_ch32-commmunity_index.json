@@ -257,15 +257,15 @@
               "host": "x86_64-linux-gnu",
               "url": "https://github.com/ch32-community/wch_gcc_linux/releases/download/15.0.0/wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
               "archiveFileName": "wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:D4889A976E3EA12A946FDAEC79DE22840284D74F9922DBA88075A8475A1BEA3F",
-              "size": "238825310"
+              "checksum": "SHA-256:DE9ACAFCF1A39B32D535D4B252EF6D8D644CB9E956F836712F109EF62548A6B7",
+              "size": "238823497"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/ch32-community/wch_gcc_macos/releases/download/15.0.0/wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
               "archiveFileName": "wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
-              "checksum": "SHA-256:845DC8FCEECE0C05B7AB222BD48595932A793696FD7FD89DD75A1DAD329A1BAA",
-              "size": "299919209"
+              "checksum": "SHA-256:F8FFA412E8A562A89A3B41D2DA62ED3708C6B94742754225D9DF45C3F69E2990",
+              "size": "299907574"
             }
           ]
         },
