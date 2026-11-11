@@ -250,8 +250,8 @@
               "host": "i686-mingw32",
               "url": "https://github.com/ch32-community/wch_gcc_windows/releases/download/15.0.0/wch_riscv_gcc15_i686-mingw32.zip",
               "archiveFileName": "wch_riscv_gcc15_i686-mingw32.zip",
-              "checksum": "SHA-256:471038CA0936F91037B498513E4AD63FDCFB82A14B5BBF07395F4940B438133F",
-              "size": "238520172"
+              "checksum": "SHA-256:F8FFD4E5B429E17170A7EF03595E11E7D8A70836C6F2B14C2D28AD44DA71FDB9",
+              "size": "238402520"
             },
             {
               "host": "x86_64-linux-gnu",
