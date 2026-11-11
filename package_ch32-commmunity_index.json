@@ -257,8 +257,8 @@
               "host": "x86_64-linux-gnu",
               "url": "https://github.com/ch32-community/wch_gcc_linux/releases/download/15.0.0/wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
               "archiveFileName": "wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:D66D3D21229F05B3B92FE409770580BD07C66C917A88921347280AD8F60E6AC2",
-              "size": "238840498"
+              "checksum": "SHA-256:D4889A976E3EA12A946FDAEC79DE22840284D74F9922DBA88075A8475A1BEA3F",
+              "size": "238825310"
             },
             {
               "host": "x86_64-apple-darwin",
