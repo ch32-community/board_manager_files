@@ -248,21 +248,21 @@
           [
             {
               "host": "i686-mingw32",
-              "url": "https://codeload.github.com/ch32-community/wch_gcc_windows/tar.gz/refs/tags/15.0.0",
+              "url": "https://github.com/ch32-community/wch_gcc_windows/releases/download/15.0.0/wch_riscv_gcc15_i686-mingw32.zip",
               "archiveFileName": "wch_riscv_gcc15_i686-mingw32.zip",
               "checksum": "SHA-256:471038CA0936F91037B498513E4AD63FDCFB82A14B5BBF07395F4940B438133F",
               "size": "238520172"
             },
             {
               "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/ch32-community/wch_gcc_linux/tar.gz/refs/tags/15.0.0",
+              "url": "https://github.com/ch32-community/wch_gcc_linux/releases/download/15.0.0/wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
               "archiveFileName": "wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
               "checksum": "SHA-256:D66D3D21229F05B3B92FE409770580BD07C66C917A88921347280AD8F60E6AC2",
               "size": "238840498"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://codeload.github.com/ch32-community/wch_gcc_macos/tar.gz/refs/tags/15.0.0",
+              "url": "https://github.com/ch32-community/wch_gcc_macos/releases/download/15.0.0/wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
               "archiveFileName": "wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
               "checksum": "SHA-256:845DC8FCEECE0C05B7AB222BD48595932A793696FD7FD89DD75A1DAD329A1BAA",
               "size": "299919209"
