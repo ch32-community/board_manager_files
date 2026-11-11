@@ -28,7 +28,7 @@
           "toolsDependencies": [
             {
               "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
+              "name": "riscv-gcc",
               "version": "8.2.0"
             },
             {
@@ -68,7 +68,7 @@
           "toolsDependencies": [
             {
               "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
+              "name": "riscv-gcc",
               "version": "8.2.0"
             },
             {
@@ -109,7 +109,7 @@
           "toolsDependencies": [
             {
               "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
+              "name": "riscv-gcc",
               "version": "8.2.0"
             },
             {
@@ -150,8 +150,49 @@
           "toolsDependencies": [
             {
               "packager": "ch32-community",
-              "name": "riscv-none-embed-gcc",
+              "name": "riscv-gcc",
               "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.3.261111",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.3.261111.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.3.261111/ch32-community-arduino-core-1.3.261111.zip",
+          "checksum": "SHA-256:636671589f9a40b86d730cebab05ba89b331dfcb35e0fb86f923f994d43431e3",
+          "size": "2559078",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"},
+            {"name": "CH32L10x EVT Board" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "15.0.0"
             },
             {
               "packager": "ch32-community",
@@ -173,20 +214,20 @@
       ],
       "tools": [
         {
-          "name": "riscv-none-embed-gcc",
+          "name": "riscv-gcc",
           "version": "8.2.0",
           "systems":
           [
             {
               "host": "i686-mingw32",
-              "url": "https://codeload.github.com/ch32-community/risc-none-embed-gcc/zip/refs/tags/8.2.0",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_windows/zip/refs/tags/8.2.0",
               "archiveFileName": "risc-none-embed-gcc-8.2.0.zip",
               "checksum": "SHA-256:43DF880A1908C873A8B6AB115568C6BEAEEC41DDADEB5202703B6AA9FDE50626",
               "size": "267710516"
             },
             {
               "host": "x86_64-linux-gnu",
-              "url": "https://codeload.github.com/ch32-community/wch_gcc_8_linux/tar.gz/refs/tags/8.2.0",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_linux/tar.gz/refs/tags/8.2.0",
               "archiveFileName": "wch_gcc_8_linux-8.2.0.tar.gz",
               "checksum": "SHA-256:967FB021E5689FF79A06A71C7E54FB7FACE418D5E9B27EC64F5E56687557A282",
               "size": "245443061"
@@ -197,6 +238,34 @@
               "archiveFileName": "wch_gcc_macos-8.2.0.tar.gz",
               "checksum": "SHA-256:E14538AE7B621DE798C2466B338A4174CCE22C9CF12E5C1684C0995931738260",
               "size": "160591401"
+            }
+          ]
+        },
+        {
+          "name": "riscv-gcc",
+          "version": "15.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-community/wch_gcc_windows/releases/download/15.0.0/",
+              "archiveFileName": "wch_riscv_gcc15_i686-mingw32.zip",
+              "checksum": "SHA-256:471038CA0936F91037B498513E4AD63FDCFB82A14B5BBF07395F4940B438133F",
+              "size": "238520172"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-community/wch_gcc_linux/releases/download/15.0.0/",
+              "archiveFileName": "wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:D66D3D21229F05B3B92FE409770580BD07C66C917A88921347280AD8F60E6AC2",
+              "size": "238840498"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_macos/tar.gz/refs/tags/15.0.0",
+              "archiveFileName": "wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:845DC8FCEECE0C05B7AB222BD48595932A793696FD7FD89DD75A1DAD329A1BAA",
+              "size": "299919209"
             }
           ]
         },
