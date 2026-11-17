@@ -1,0 +1,440 @@
+{
+  "packages": [
+    {
+      "name": "ch32-community",
+      "websiteURL": "https://github.com/ch32-community/arduino_core_ch32",
+      "maintainer": "ch32-community",
+      "email": "devin.marx3@gmail.com",
+      "help": {
+        "online": "https://github.com/ch32-community"
+      },
+      "platforms": [
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.1.0.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.1.0/ch32-community-arduino-core-1.1.0.zip",
+          "checksum": "SHA-256:5fe8d264e9e270070f9629745174b897906e71b1ec03510024498404f67946f3",
+          "size": "2018011",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},
+            {"name": "CH32V10x EVT Board"},
+            {"name": "CH32V00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.2.261007",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.2.261007.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.2.261007/ch32-community-arduino-core-1.2.261007.zip",
+          "checksum": "SHA-256:ad31db0298d6b02ad09806c3d1ba0997d6a803c3e3dc04ea1d55b94ac1afa542",
+          "size": "2040588",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.2.261021",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.2.261021.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.2.261021/ch32-community-arduino-core-1.2.261021.zip",
+          "checksum": "SHA-256:ee1148d2c6d5985306c7a3fe8be89a2926d11195bed1dbbff17fddc05e095687",
+          "size": "2118465",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"},
+            {"name": "CH32L10x EVT Board" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.3.261109",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.3.261109.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.3.261109/ch32-community-arduino-core-1.3.261109.zip",
+          "checksum": "SHA-256:5833503bd10af0f8e905faab5e874b180ebe24751c53f7a34ded99291bc9c98e",
+          "size": "2315905",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"},
+            {"name": "CH32L10x EVT Board" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "CH32 Community Core",
+          "architecture": "ch32v",
+          "version": "1.3.261111",
+          "category": "Contributed",
+          "archiveFileName": "ch32-community-arduino-core-1.3.261111.zip",
+          "url": "https://github.com/ch32-community/arduino_core_ch32/releases/download/1.3.261111/ch32-community-arduino-core-1.3.261111.zip",
+          "checksum": "SHA-256:636671589f9a40b86d730cebab05ba89b331dfcb35e0fb86f923f994d43431e3",
+          "size": "2559078",
+          "boards": [
+            {"name": "CH32X035 EVT Board" },
+            {"name": "CH32V30x EVT Board" },
+            {"name": "CH32V20x EVT Board" },
+            {"name": "CH32V10x EVT Board" },
+            {"name": "CH32V00x EVT Board" },
+            {"name": "CH32VM00x EVT Board"},
+            {"name": "CH32L10x EVT Board" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ch32-community",
+              "name": "riscv-gcc",
+              "version": "15.0.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "openocd",
+              "version": "2.12"
+            },
+            { 
+              "packager": "ch32-community", 
+              "name": "wchisp", 
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "ch32-community",
+              "name": "pqt-python3",
+              "version": "1.0.1-base-3a57aed-1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0.1-base-3a57aed-1",
+          "name": "pqt-python3",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+              "size": "6428926"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+              "size": "6428926"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-macosx-portable.tar.gz",
+              "archiveFileName": "python3-macosx-portable.tar.gz",
+              "checksum": "SHA-256:01a5bf1fa264c6f04cfaadf4c6e9f6caaacb6833ef40104dfbe953fcdb9bca1c",
+              "size": "25494144"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/python3.18-portable-darwin_arm64.tar.gz",
+              "archiveFileName": "python3.18-portable-darwin_arm64.tar.gz",
+              "checksum": "SHA-256:ac6ee694191ac4db770e147429a7606b50063110db9ccbaf46e0e5ff8f7dcd20",
+              "size": "90294119"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+              "size": "292"
+            }
+          ]
+        },
+        {
+          "name": "riscv-gcc",
+          "version": "8.2.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_windows/zip/refs/tags/8.2.0",
+              "archiveFileName": "risc-none-embed-gcc-8.2.0.zip",
+              "checksum": "SHA-256:43DF880A1908C873A8B6AB115568C6BEAEEC41DDADEB5202703B6AA9FDE50626",
+              "size": "267710516"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_linux/tar.gz/refs/tags/8.2.0",
+              "archiveFileName": "wch_gcc_8_linux-8.2.0.tar.gz",
+              "checksum": "SHA-256:967FB021E5689FF79A06A71C7E54FB7FACE418D5E9B27EC64F5E56687557A282",
+              "size": "245443061"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/ch32-community/wch_gcc_macos/tar.gz/refs/tags/8.2.0",
+              "archiveFileName": "wch_gcc_macos-8.2.0.tar.gz",
+              "checksum": "SHA-256:E14538AE7B621DE798C2466B338A4174CCE22C9CF12E5C1684C0995931738260",
+              "size": "160591401"
+            }
+          ]
+        },
+        {
+          "name": "riscv-gcc",
+          "version": "15.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-community/wch_gcc_windows/releases/download/15.0.0/wch_riscv_gcc15_i686-mingw32.zip",
+              "archiveFileName": "wch_riscv_gcc15_i686-mingw32.zip",
+              "checksum": "SHA-256:E015D6DE28AE68C8EE904F42FD41310E7984B15D5B34BA89B9B0E21EE3A92473",
+              "size": "238488120"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-community/wch_gcc_linux/releases/download/15.0.0/wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "wch_riscv_gcc15_x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:DE9ACAFCF1A39B32D535D4B252EF6D8D644CB9E956F836712F109EF62548A6B7",
+              "size": "238823497"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-community/wch_gcc_macos/releases/download/15.0.0/wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
+              "archiveFileName": "wch_riscv_gcc15_x86_64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:F8FFA412E8A562A89A3B41D2DA62ED3708C6B94742754225D9DF45C3F69E2990",
+              "size": "299907574"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "2.12",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://codeload.github.com/ch32-community/openocd_wch/zip/refs/tags/2.12",
+              "archiveFileName": "openocd_wch-2.12.zip",
+              "checksum": "SHA-256:BE5F4DAC56F2D16A7997DE2C5E61C0A114970E456644C4C26B281DD5610AC359",
+              "size": "10567384"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/ch32-community/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:10FA9CF5006C3495AEDCAFD1C3903FA8D75D513536432E1D61B59124442EB4C3",
+              "size": "2097609"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/ch32-community/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
+              "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
+              "size": "1995618"
+            }
+          ]
+        },
+        {
+          "name": "wchisp",
+          "version": "0.2.3",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-win-x64.zip",
+              "archiveFileName": "wchisp-v0.2.3-win-x64.zip",
+              "checksum": "SHA-256:E17AC0AE743E25C080A539E6BB407C993E87583D4D6AEDDCC0CD92EE681CC6CD",
+              "size": "629251"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-linux-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-linux-x64.tar.gz",
+              "checksum": "SHA-256:B83C7CECF8B786D973CDF09D80869DA0CCBA48F22FED04CC753F15410F9C5DBC",
+              "size": "829359"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "checksum": "SHA-256:5F3F20A273D62B545085FCCFA5640F4BF42EF70CCF17D6BE87311951073450A1",
+              "size": "828826"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-macos-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-macos-x64.tar.gz",
+              "checksum": "SHA-256:635FD1B35E4D3101EC33FFDF6B93799103129225883C2D19CF1888EAB4E230B9",
+              "size": "774784"
+            },
+            {
+              "host": "aarch64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-macos-arm64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-macos-arm64.tar.gz",
+              "checksum": "SHA-256:8CBC83F0A5876E472F149D33131CC03C69C96C40FA731B44CB283E872D3A3E9D",
+              "size": "757891"
+            }
+          ]
+        },
+        {
+          "name": "beforeinstall",
+          "version": "1.0.0",
+          "systems":
+          [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/ch32-community/wch_beforeinstall_linux/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_beforeinstall_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:17EF3A94BC46B9EB9AB1FDECC48FCD3880EEB8FCC36E6648626320F0BF2864DC",
+              "size": "507269"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-community/board_manager_files/raw/main/wch_beforeinstall_empty.tar.gz",
+              "archiveFileName": "wch_beforeinstall_empty.tar.gz",
+              "checksum": "SHA-256:87f2e600b449220e88b20c5c867eb879b4acad177824fab65a9b3713d53246fd",
+              "size": "186"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-community/board_manager_files/raw/main/wch_beforeinstall_empty.tar.gz",
+              "archiveFileName": "wch_beforeinstall_empty.tar.gz",
+              "checksum": "SHA-256:87f2e600b449220e88b20c5c867eb879b4acad177824fab65a9b3713d53246fd",
+              "size": "186"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
